@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}k</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/style/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">home</a></li>
-	        	<li><a href="/about">about</a></li>
-        		<li><a href="/cv">resume</a></li>
-        		<li><a href="/clips">clips</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    	{{ content }}
-		</div>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:alice.park@yale.edu">email me</a></li>
-        		<li><a href="https://github.com/umalice">github</a></li>
-			</ul>
-		</footer>
-	</body>
+  <head>
+    <title>{{ page.title }}k</title>
+    <link rel="stylesheet" type="text/css" href="/style/main.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/cv">resume</a></li>
+        <li><a href="/clips">clips</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      {{ content }}
+    </div>
+    <footer>
+      <ul>
+        <a href="mailto:alice.park@yale.edu">email me!</a>
+        <li><a href="https://github.com/umalice">github</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
